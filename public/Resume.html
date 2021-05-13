@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arindam Hazra</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: rgb(2, 1, 43);
+            font-family: sans-serif;
+        }
+        .container{
+            width: 65%;
+            margin: auto;
+            background: #fff;
+            padding-bottom: 3rem;
+        }
+        .header{
+            height: 20rem;
+            background-color: rgb(6, 87, 194);
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 2px solid #000;
+        }
+        .header_img{
+            transform: translate(4rem,4rem);
+            flex-grow: 1;
+            width: 17.81rem;
+        }
+        .header_img img{
+            height: 25rem;
+            margin:auto;
+        }
+        .header_text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            color: #fff;
+            text-transform: uppercase;
+            flex-grow: 2;
+        }
+        .header_jobTitle{
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.5rem;
+            margin: 0;
+            padding: 0;
+        }
+        .header_name{
+            font-size: 4rem;
+            margin: 0;
+            padding: 0;
+            letter-spacing: 0.7rem;
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+        }
+        .content_left{
+            padding-top: 9.5rem;
+            width: 35%;
+            padding-left:4rem;
+            flex: 1;
+        }
+        .content_right{
+            flex: 2;
+            padding: 1rem 0;
+            margin: 0 2rem;
+        }
+        .content a{
+            color: #222;
+        }
+        .content_field_title{
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            margin: 0;
+            margin-bottom: 1rem;
+        }
+        .container_field_subtitle{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            margin: 0;
+            margin-top: 0.5rem;
+            margin-bottom: 0.2rem;
+        }
+        .hrLine{
+            width:100%;
+            margin:0.7rem 0;
+            border-top: 3px solid #000
+        }
+        .content_left .content_fields{
+            width: 17.7rem;
+        }
+        .content_right{
+            width: 92%;
+        }
+        .content_field_paragraph{
+            text-align: justify;
+            margin: 0.3rem 0;
+        }
+        .content_field_ul ul{
+            padding-left: 1rem;
+            margin: 0;
+        }
+        footer{
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer a{
+            color: #fff;
+            opacity: 0.7;
+        }
+        .mobile_message{
+            display: none;
+        }
+        @media only screen and (max-width: 768px) {
+            .container{
+                display: none;
+            }
+            .mobile_message{
+                display: block;
+                position: fixed;
+                width: 100%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #fff;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<!-- https://drive.google.com/uc?export=view&id=1OjyKbC2dOQ3WL5hHWfo9KzQ1aWozuXUm -->
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header_img">
+                <img src="./assets/arindam.jpg"alt="Profile Photo" title="Arindam Hazra">
+            </div>
+            <div class="header_text">
+                <h4 class="header_jobTitle">Web Developer</h4>
+                <h1 class="header_name">Arindam
+                    <br/>Hazra</h1>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_left">
+                <div class="content_fields">
+                    <hr class="hrLine"/>
+                    <h3 class="content_field_title">Personal Profile</h3>
+                    <p class="content_field_paragraph">
+                        I am a final year Diploma student in
+                        Computer Science & Technology in
+                        Kolkata. I am personally working
+                        with Web Development
+                        technologies for almost 3.5 years. I
+                        am quite confident about my work
+                        and want to be a part of your team.
+
+                    </p>
+                </div>
+                <div class="content_fields">
+                    <hr class="hrLine"/>
+                    <h3 class="content_field_title">Areas of Expertise</h3>
+                    <div class="content_field_ul">
+                        <ul>
+                            <li>HTML, CSS, JavaScript, PHP experience</li>
+                            <li>Experience with ReactJS, NodeJS and Express</li>
+                            <li>Creating and Using APIs</li>
+                            <li>Programing with C, C++, and Python</li>
+                            <li>Use of SQL, NoSQL, Firebase</li>
+                            <li>Use of git and GitHub</li>
+                            <li>Deployment of web app</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="content_fields">
+                    <hr class="hrLine"/>
+                    <h3 class="content_field_title">Other Skills</h3>
+                    <div class="content_field_ul">
+                        <ul>
+                            <li>Solving complex problems</li>
+                            <li>Design and implement database structures</li>
+                            <li>Word, Excel, and Power Point</li>
+                            <li>Basic graphic designing</li>
+                            <li>Web scraping</li>
+                            <li>And other necessary thing used in Web Development</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content_fields">
+                    <hr class="hrLine"/>
+                    <h3 class="content_field_title">Certificates</h3>
+                    <div class="content_field_ul">
+                        <ul>
+                            <li>The Complete SQL Bootcamp</li>
+                            <li>Web Development Bootcamp</li>
+                            <li>Basics Of SEO</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content_right">
+                <div class="content_fields">
+                    <h3 class="content_field_title">Get In Contact</h3>
+                    Mobile + WhatsApp : <a href="https://api.whatsapp.com/send/?phone=919064484227&text=Hello" target="_blank">+91-9064484227</a><br/>
+                    Email: <a href="mailto:iamarindamhazra@gmail.com" target="_blank">iamarindamhazra@gmail.com</a><br/>
+                    Shilla, Ramgopalpur, Galsi, Bardhaman, 713403 - INDIA<br/><br/>
+                </div>
+                <div class="content_fields">
+                    <br/>
+                    <hr class="hrLine"/>
+                    <h3 class="content_field_title">WORK EXPERIENCE</h3>
+                    As I am a fresher, I do not have much work experience. But I have been working as a freelancer.
+                    <h4 class="container_field_subtitle">Public Projects:</h4>
+                    <div class="content_field_ul">
+                        <ul>
+                            <li>
+                                I have been currently working with a new start-up since the middle of January 2021. It is a quiz app in it's development phase.<br/>
+                                Job - CTO & Developer, user website + admin panel building, databasedesigning, Payment Integration (Pay In & Payouts), PWA, deployment.<br/>
+                                Tools used: ReactJS, HTML, CSS, Firebase (firestore, functions, hosting), NodeJS, git & GitHub, Heroku, Cashfree APIs etc.
+                            </li><br/>
+                            <li>
+                                Sonar Bangla Muri:<br/>
+                                It is a local food-making (puffed rice) company.<br/>
+                                Job - Main developer, static website building with animation, Zoho mailsetup, deployment<br/>
+                                Tools Used: HTML, CSS, JavaScript, git & GitHub, Hosting, Cloudflare, Zoho mail etc
+                                Check it at <a href="https://banglamuri.in" target="_blank">https://banglamuri.in</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h4 class="container_field_subtitle">Private Projects:</h4>
+                    <div class="content_field_ul">
+                        <ul>
+                            <li>I built a platform to track the students' online class attendance during the lockdown. The website also has an admin panel. [HTML, CSS, JS, PHP, MySQL]</li>
+                            <li>I built an anonymous messaging platform just for fun.</li>
+                            <li>Scraping scripts for some websites (Facebook, Amazon, etc.) using Python</li>
+                            <li>And many more...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content_fields">
+                    <hr class="hrLine"/>
+                    <h3 class="content_field_title">Education History</h3>
+                    <div class="content_field_ul">
+                        <h4 class="container_field_subtitle">APC Roy Polytechnic, Jadavpur</h4>
+                        Diploma in Computer Science & Technology, 2018 - Present
+                        <ul>
+                            <li>Board: West Bengal State Council of Technical Education</li>
+                            <li>Last semester GPA: 9.1 on 10.0</li>
+                            <li>Passing year: June 2021 (Maybe extended due to COVID)</li>
+                        </ul>
+                    </div>
+                    <div class="content_field_ul">
+                        <h4 class="container_field_subtitle">Galsi High School</h4>
+                        Higher Secondary in Science stream, 2016 - 2018
+                        <ul>
+                            <li>Board: West Bengal Council of Higher Secondary Education</li>
+                            <li>Percentage: 80</li>
+                            <li>Passing year: 2018</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile_message">
+        This page is not available for mobile devices. Please download the PDF.
+    </div>
+    <footer>
+        <a href="./assets/Resume.pdf" download>Download PDF</a><br/>
+        &copy this page is coded by Arindam Hazra
+    </footer>
+</body>
+</html>
